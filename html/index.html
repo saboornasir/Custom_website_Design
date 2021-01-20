@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bootstrap website</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=B612:ital@1&display=swap" rel="stylesheet">
+
+    <!-- /* Make the image fully responsive */      -->
+    <style>
+        *{
+            font-family: 'B612', sans-serif;
+        }
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+    </style>
+  </head>
+  <body>
+      <!-- Header section starts here    -->
+      <!-- navigation bar start -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#feedback">Feedback</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#aboutus">About us</a>
+                    <a class="dropdown-item" href="#services">Services</a>
+                    <a class="dropdown-item" href="#contactus">Contact us</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#gallery">Gallery</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Feedback</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+          <!-- navigation bar end  -->
+          <!-- Carousel start here  -->
+          <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://source.unsplash.com/1600x900/?country,water
+                " alt="Los Angeles" width="1100" height="500">
+                <div class="carousel-caption">
+                  <h3>Los Angeles</h3>
+                  <p>We had such a great time in LA!</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x900/?city,building
+                " alt="Chicago" width="1100" height="500">
+                <div class="carousel-caption">
+                  <h3>Chicago</h3>
+                  <p>Thank you, Chicago!</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x900/?beach,water
+                " alt="New York" width="1100" height="500">
+                <div class="carousel-caption">
+                  <h3>New York</h3>
+                  <p>We love the Big Apple!</p>
+                </div>   
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          <!-- Carousel ends here  -->
+    </header>  
+    <!-- Header section ends here -->
+    <!-- About us  -->
+    <section id="aboutus">
+
+        <div class="container" >
+            <h3 class="text-center text-capitalize pt-5">About Us</h3>
+            <hr class="w-25 mx-auto">
+        </div>
+        <div class="container-fluid">
+            <div class="row mb-5">
+                <div class="col-lg-6 col-md-6 col-12 p-2 ">
+                    <img src="https://source.unsplash.com/1600x900/?person,person" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 p-2 ">
+                    <h3>Who am I?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptatem quaerat nulla adipisci eveniet. Atque assumenda ullam consectetur sed mollitia id corrupti laboriosam, minima dolore modi minus voluptatem aspernatur autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magni eaque ex at quibusdam veritatis, odio sint eligendi veniam numquam, ad, nihil vel nostrum nisi a maiores quo! Similique, ipsa? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis nesciunt non accusamus ea minima et quis, aspernatur at assumenda obcaecati dignissimos officia neque nisi soluta aperiam accusantium tenetur, ipsum ut?</p>
+                    <button class="btn btn-primary" type="button">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <!-- About us ends here  -->
+    <!-- services part  -->
+    <section  class="container" id="services">
+        <div class="container">
+            <h3 class="text-center text-capitalize pt-5">Services</h3>
+            <hr class="w-25 mx-auto">
+            <div class="row container text-center "> 
+                <div class="col-md-4 col-lg-4 col-12 mb-3">
+                    <div class="card" >
+                        <img class="card-img-top" src="https://source.unsplash.com/1600x900/?person,person" alt="Card image">
+                        <div class="card-body">
+                          <h4 class="card-title">John Doe</h4>
+                          <p class="card-text">Some example text.</p>
+                          <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                      </div>
+                </div><div class="col-md-4 col-lg-4 col-12 mb-3">
+                    <div class="card" >
+                        <img class="card-img-top" src="https://source.unsplash.com/1600x900/?person,person" alt="Card image">
+                        <div class="card-body">
+                          <h4 class="card-title">John Doe</h4>
+                          <p class="card-text">Some example text.</p>
+                          <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                      </div>
+                </div><div class="col-md-4 col-lg-4 col-12 mb-3">
+                    <div class="card" >
+                        <img class="card-img-top" src="https://source.unsplash.com/1600x900/?person,person" alt="Card image">
+                        <div class="card-body">
+                          <h4 class="card-title">John Doe</h4>
+                          <p class="card-text">Some example text.</p>
+                          <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <!-- services ends here  -->  
+
+        <!-- contact us part start -->
+        <div id="contactus" class="container text-center mt-3 ">
+            <article class="bg-success py-3">
+                <h3 class="">+923030012403</h3>
+                <p>Feel Free to contact</p>
+                <button class="btn bg-warning">Contact Us </button>
+            </article>
+        </div>
+        <!-- contact us part end -->
+        <!-- Gallery part start  -->
+        <section class="container" id="gallery">
+            <div class=" text-center pt-5">
+                <h3 class="text-capitalize">Gallery</h3>
+                <hr class="w-25 mx-auto">
+            </div>
+            <div class=" row">
+                <div class="col-lg-4 col-md-4 col-12 p-2">
+                    <img src="https://source.unsplash.com/1600x900/?bag,cycle" alt="" class="w-100" >
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 p-2">
+                    <img src="https://source.unsplash.com/1600x900/?cycle,toy" alt="" class="w-100" >
+                </div> 
+                <div class="col-lg-4 col-md-4 col-12 p-2">
+                    <img src="https://source.unsplash.com/1600x900/?bag,bag" alt="" class="w-100" >
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 p-2">
+                    <img src="https://source.unsplash.com/1600x900/?cup,clock" alt="" class="w-100" >
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 p-2">
+                    <img src="https://source.unsplash.com/1600x900/?clock,bag" alt="" class="w-100" >    
+                </div> 
+                <div class="col-lg-4 col-md-4 col-12 p-2">
+                    <img src="https://source.unsplash.com/1600x900/?person,person" alt="" class="w-100" > 
+                </div>
+            </div>
+        </section>
+        <!-- Gallery part end  -->
+        <!-- signup form  -->
+        <section class="container" id="signup">
+            <div class="text-center mt-3 ">
+                <article class="bg-success py-3">
+                    <h3 class="">Contact Us</h3>
+                    <p>Hurry up! and sign up!</p>
+                    <button type="button" class="btn bg-warning" data-toggle="modal" data-target="#myModal">Sign up </button>
+                </article>
+            </div>
+  
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Sign up</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+            <form action="/action_page.php">
+                <div class="form-group">
+                  <label for="email">Email address:</label>
+                  <input type="email" class="form-control" placeholder="Enter email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="number">Number</label>
+                    <input class="form-control" type="number" placeholder="enter your number" id="number" >
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Password:</label>
+                  <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                </div>
+                <div class="form-group form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Remember me
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign up</button>
+              </form>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+        </section>
+        <!-- signup form ends here  -->
+         <!-- feedback part  -->
+         <section id="feedback">
+            <div class="text-center mt-3 ">
+                <article class="py-3">
+                    <h3 class="">Feedback</h3>
+                    <hr class="w-25 mx-auto ">
+                </article>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <form class=" mx-auto mb-2" action="">
+                            <div class="form-group">
+                                <label for="Email">Email</label>
+                                <input id="Email" class="form-control" type="text" name="" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group">
+                                <label for="Number">Number</label>
+                                <input id="Number" class="form-control" type="text" name="" placeholder="Enter your number">
+                            </div><div class="form-group">
+                                <label for="Name">Name</label>
+                                <input id="Name" class="form-control" type="text" name="" placeholder="Enter your Name">
+                            </div>
+                           <!-- <button class="btn btn-primary " type="button">Submit</button> -->
+                           <div class="row">
+                            <div class="col text-center">
+                              <button class="btn btn-primary">submit</button>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+         </section>
+         <!-- footer starts here  -->
+         <footer>
+             <p class="text-center bg-dark text-white p-5">@<i class="fa fa-copyright" aria-hidden="true">copyright by saboornasir</i></p>
+
+         </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
